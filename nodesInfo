@@ -1,2 +1,3 @@
 -------------------------------------------------------Node Js ----------------------------------------------------------------------------------
 Nodejs has build in modules which we can use without further installation.
+node index.js to run index.js file
