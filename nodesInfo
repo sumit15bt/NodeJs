@@ -1,4 +1,4 @@
--------------------------------------------------------Node Js ----------------------------------------------------------------------------------
+-------------------------------------------------------Node Js ------------------------------------------------
 Nodejs has build in modules which we can use without further installation.
 node index.js to run index.js file
 
@@ -17,3 +17,9 @@ JSON --->
 JSON stands for javaScript Object Notation. 
 JSON is a lightWeighted format for storing and transporting data.(before  xml is used.)
 JSON object often used when data is sent from server to a web Page. 
+
+WHat is API ..?
+
+API is acronym for Application Programming Interface,which is a software intermediary that allows two applications to talk each other.Each time you use an app like facebook,send a message,or check the weather on phone ... you r using API.
+OR ALSO -> 
+It is like service which allows us to request a data.

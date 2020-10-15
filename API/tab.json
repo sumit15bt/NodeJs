@@ -1,0 +1,475 @@
+{
+  "realtime_options": [
+    "MONITOR-BARGE",
+    "MONITOR-LISTEN",
+    "MONITOR-WHISPER",
+    "MONITOR-MESSAGE",
+    "MONITOR-PAUSE",
+    "MONITOR-LOGOUT"
+  ],
+  "reports": {
+    "tabs": [
+      {
+        "tab_name": "Campaign",
+        "url": "#",
+        "tabs": [
+          {
+            "url": "campaignsummary",
+            "tab_name": "Summary",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "slareport",
+            "tab_name": "SLAreport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "billcdr",
+            "tab_name": "CDRReport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "dispositionReport",
+            "tab_name": "DispositionReport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "viewAbandon",
+            "tab_name": "Abandon",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "reportCRM",
+            "tab_name": "CRMHistoryReport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "leadStatusReport",
+            "tab_name": "leadStatusReport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "attemptReport",
+            "tab_name": "attemptReport",
+            "permission": "1,0,0,0,1"
+          }
+        ]
+      },
+      {
+        "tab_name": "Agent",
+        "url": "#",
+        "tabs": [
+          {
+            "url": "showLoginLogout",
+            "tab_name": "LoginLogout",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "viewPerformanceLog",
+            "tab_name": "AgentPerformance",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "viewConfLog",
+            "tab_name": "ConferenceLog",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "agentPauseReport",
+            "tab_name": "agentPauseReport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "agentdispositionreport",
+            "tab_name": "agentdispositionreport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "viewSelectionPause",
+            "tab_name": "PauseEventReport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "agentCdrReport",
+            "tab_name": "AgentCdr",
+            "permission": "1,0,0,0,1"
+          }
+        ]
+      },
+      {
+        "tab_name": "Quality",
+        "url": "#",
+        "tabs": [
+          {
+            "url": "listRecordings",
+            "tab_name": "VoiceRecordings",
+            "permission": "1,1,0,1,1"
+          },
+          {
+            "url": "remarksRecordings",
+            "tab_name": "RemarkslistReport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "agentRecordingRemarksRecordings",
+            "tab_name": "AgentRecordingRemarks",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "viewQuesReport",
+            "tab_name": "RecordingRemarksQuestions",
+            "permission": "1,1,1,1,0"
+          },
+          {
+            "url": "superVisorReport",
+            "tab_name": "superVisor",
+            "permission": "1,0,0,0,1"
+          }
+        ]
+      },
+      {
+        "tab_name": "callcenter",
+        "url": "#",
+        "tabs": [
+          {
+            "url": "viewIvr",
+            "tab_name": "IVR",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "nodeActivity",
+            "tab_name": "nodeActivity",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "viewTrunkGroup",
+            "tab_name": "TrunkGroup",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "viewScheduler",
+            "tab_name": "MaintenanceScheduler",
+            "permission": "1,1,1,1,0"
+          },
+          {
+            "url": "trunkUtilizationReport",
+            "tab_name": "TrunkUtilizationReport",
+            "permission": "1,0,0,0,1"
+          }
+        ]
+      },
+      {
+        "tab_name": "Queue",
+        "url": "#",
+        "tabs": [
+          {
+            "url": "qnameSummaryReport",
+            "tab_name": "QueueSummary",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "queuedetail",
+            "tab_name": "Detail",
+            "permission": "1,0,0,0,1"
+          }
+        ]
+      }
+    ]
+  },
+  "realtime": {
+    "tabs": [
+      {
+        "url": "displayGraphicalMonitoring",
+        "tab_name": "CampaignMonitoring",
+        "permission": "1,0,0,1,0"
+      },
+      {
+        "url": "homeWallboard",
+        "tab_name": "Wallboard",
+        "permission": "1,0,0,0,0"
+      }
+    ]
+  },
+  "sm_reports": {
+    "tabs": [
+      {
+        "url": "#",
+        "tab_name": "Campaign",
+        "tabs": [
+          {
+            "url": "campaignsummary_sm",
+            "tab_name": "Summary",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "slareport_sm",
+            "tab_name": "SLAreport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "sdr_sm",
+            "tab_name": "SDRReport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "dispositionReport_sm",
+            "tab_name": "DispositionReport",
+            "permission": "1,0,0,0,1"
+          }
+        ]
+      },
+      {
+        "url": "#",
+        "tab_name": "Agent",
+        "tabs": [
+          {
+            "url": "showLoginLogout_sm",
+            "tab_name": "LoginLogout",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "viewPerformanceLog_sm",
+            "tab_name": "AgentPerformance",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "agentPauseReport_sm",
+            "tab_name": "agentPauseReport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "agentdispositionreport_sm",
+            "tab_name": "agentdispositionreport",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "viewSelectionPause_sm",
+            "tab_name": "PauseEventReport",
+            "permission": "1,0,0,0,1"
+          }
+        ]
+      },
+      {
+        "url": "#",
+        "tab_name": "Queue",
+        "tabs": [
+          {
+            "url": "qnameSummaryReport_sm",
+            "tab_name": "QueueSummary",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "queuedetail_sm",
+            "tab_name": "Detail",
+            "permission": "1,0,0,0,1"
+          }
+        ]
+      }
+    ]
+  },
+  "sm_realtime": {
+    "tabs": [
+      {
+        "url": "displayCampaignMonitoring_sm",
+        "tab_name": "CampaignMonitoringSm",
+        "permission": "1,0,0,0,0"
+      },
+      {
+        "url": "homeWallboard_sm",
+        "tab_name": "Wallboard",
+        "permission": "1,0,0,0,0"
+      }
+    ]
+  },
+  "internal_chat": {
+    "tabs": [
+      {
+        "url": "chat",
+        "tab_name": "ChatStart",
+        "permission": "1,1,0,0,0"
+      }
+    ]
+  },
+  "ivr_designer": {
+    "tabs": [
+      {
+        "url": "IVRDesigner",
+        "tab_name": "IVRDesigner",
+        "permission": "1,0,0,0,1"
+      }
+    ]
+  },
+  "wfm": {
+    "tabs": [
+      {
+        "url": "#",
+        "tab_name": "WFMConfiguration",
+        "tabs": [
+          {
+            "url": "welcomeshiftssection",
+            "tab_name": "ShiftsSection",
+            "permission": "1,1,1,1,1"
+          },
+          {
+            "url": "activitiesDetails",
+            "tab_name": "ActivityDetails",
+            "permission": "1,1,1,1,1"
+          },
+          {
+            "url": "agentdetailview",
+            "tab_name": "AgentProfiles",
+            "permission": "1,1,1,1,1"
+          },
+          {
+            "url": "preferenceview",
+            "tab_name": "AgentPreferences",
+            "permission": "1,1,1,1,1"
+          },
+          {
+            "url": "holidaysview",
+            "tab_name": "HolidaySection",
+            "permission": "1,1,1,1,1"
+          },
+          {
+            "url": "rulingSystem",
+            "tab_name": "RuilingSystem",
+            "permission": "1,1,1,1,1"
+          },
+          {
+            "url": "activityRuling",
+            "tab_name": "MapActivityRule",
+            "permission": "1,1,1,1,1"
+          },
+          {
+            "url": "planViewPanel",
+            "tab_name": "PredesignedPlans",
+            "permission": "1,1,1,1,1"
+          },
+          {
+            "url": "planSelection",
+            "tab_name": "PlanSelectionAndMapping",
+            "permission": "1,1,1,1,1"
+          }
+        ]
+      },
+      {
+        "url": "#",
+        "tab_name": "ShiftPlanningScheduling",
+        "tabs": [
+          {
+            "url": "shiftscheduling",
+            "tab_name": "ManualShiftScheduling",
+            "permission": "1,1,1,1,1"
+          },
+          {
+            "url": "planBasedScheduling#",
+            "tab_name": "PlanBasedShiftScheduling",
+            "permission": "1,1,1,1,1"
+          }
+        ]
+      },
+      {
+        "url": "#",
+        "tab_name": "WfmScheduler",
+        "tabs": [
+          {
+            "url": "rosterMail",
+            "tab_name": "RosterMail",
+            "permission": "1,1,1,1,1"
+          }
+        ]
+      },
+      {
+        "url": "#",
+        "tab_name": "WFMRealtimeAgentMonitoring",
+        "tabs": [
+          {
+            "url": "agentAdherenceMonitoring",
+            "tab_name": "AgentAdherenceMonitoring",
+            "permission": "1,0,0,0,0"
+          },
+          {
+            "url": "rosterMonitoring",
+            "tab_name": "rosterMonitoring",
+            "permission": "1,0,0,0,0"
+          }
+        ]
+      },
+      {
+        "url": "#",
+        "tab_name": "ForecastingSection",
+        "tabs": [
+          {
+            "url": "forecasting",
+            "tab_name": "AgentForecasting",
+            "permission": "1,1,1,1,1"
+          }
+        ]
+      },
+      {
+        "url": "#",
+        "tab_name": "AgentRequests",
+        "tabs": [
+          {
+            "url": "timeoff",
+            "tab_name": "TimeOff",
+            "permission": "1,0,1,1,1"
+          },
+          {
+            "url": "swaptype",
+            "tab_name": "ShiftSwap",
+            "permission": "1,0,1,1,1"
+          }
+        ]
+      },
+      {
+        "url": "#",
+        "tab_name": "ProductivityMeasures",
+        "tabs": [
+          {
+            "url": "adherenceReport",
+            "tab_name": "AdherenceReport",
+            "permission": "1,0,0,0,1"
+          }
+        ]
+      },
+      {
+        "url": "#",
+        "tab_name": "CabRoutevsDistance",
+        "tabs": [
+          {
+            "url": "cabrouteform",
+            "tab_name": "FindCabRoutes",
+            "permission": "1,0,1,0,1"
+          }
+        ]
+      },
+      {
+        "url": "#",
+        "tab_name": "ScreenRecordingTab",
+        "tabs": [
+          {
+            "url": "ScreenRecordingEvent",
+            "tab_name": "ScreenRecordingEvent",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "ScreenRecordingReport",
+            "tab_name": "ScreenRecordingReport",
+            "permission": "1,0,0,1,1"
+          },
+          {
+            "url": "SRFeedbackQuestion",
+            "tab_name": "ScreenRecordingFeedbackQuestion",
+            "permission": "1,0,0,0,1"
+          },
+          {
+            "url": "screenAgentMonitoringWidgets",
+            "tab_name": "ScreenAgentMonitoring",
+            "permission": "1,0,0,0,1"
+          }
+        ]
+      }
+    ]
+  }
+}
