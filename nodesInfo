@@ -15,5 +15,5 @@ different types of http response ----->
 
 JSON ---> 
 JSON stands for javaScript Object Notation. 
-JSON is a lightWeighted format for storing and transporting data.
+JSON is a lightWeighted format for storing and transporting data.(before  xml is used.)
 JSON object often used when data is sent from server to a web Page. 
